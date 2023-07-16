@@ -1,7 +1,7 @@
 # safe-control-project-2023
 
 Software:
-   We only change the internal structure, the usage is the same as before (safe-control-gym readme). The details of the changes are as follows:
+   We only change the internal structure, the usage is the same as before (safe-control-gym readme). The details of the changes are as follows:<br />
      New codes are added in the ‘main’ branch.
    - Added a new file: [attitude_control.py](https://github.com/peilin1011/safe-control-gym/blob/main/safe_control_gym/envs/gym_pybullet_drones/attitude_control.py)
    Path: `safe-control-gym/safe_control_gym/envs/gym_pybullet_drones/attitude_control.py`
