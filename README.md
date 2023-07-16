@@ -1,8 +1,8 @@
 # safe-control-project-2023
 
 Software:
-   We only change the internal structure, the usage is the same as before.
-   The details of the changes are as follows:
+   We only change the internal structure, the usage is the same as before (safe-control-gym readme). The details of the changes are as follows:
+New codes are added in the ‘main’ branch.
    - Added a new file: [attitude_control.py](https://github.com/peilin1011/safe-control-gym/blob/main/safe_control_gym/envs/gym_pybullet_drones/attitude_control.py)
    Path: `safe-control-gym/safe_control_gym/envs/gym_pybullet_drones/attitude_control.py`
    This file implements the attitude control part based on the Mellinger controller.
@@ -16,5 +16,3 @@ Hardware:
    - Developed a script [fly_scy.py](https://github.com/peilin1011/crazyflie-lib-python/blob/submission/submission/fly_scy.py),[fly_sim.py](https://github.com/peilin1011/crazyflie-lib-python/blob/submission/submission/fly_sim.py) (Corresponds to the two PID controllers used for testing) to control drone flight using different control algorithms.
       
    - Modified [pid.py](https://github.com/peilin1011/safe-control-gym/blob/sub_hardware/safe_control_gym/controllers/pid/pid.py) to provide interface to crazyflie-lib-python, which was used to test the feasibility of the script.
-   
-
